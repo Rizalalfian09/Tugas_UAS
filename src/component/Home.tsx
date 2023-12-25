@@ -5,7 +5,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 const Home = () => {
     return (
         <View style={styles.container}>
-            {/* Single row with icons and text */}
             <View style={styles.rowContainer}>
                 <Ionicons name="albums-outline" size={40} color="#FF90BC" style={styles.icon} />
                 <View style={styles.textContainer}>
@@ -15,7 +14,6 @@ const Home = () => {
                 <Ionicons name="heart-circle-outline" size={45} color="#FF90BC" style={styles.icon} />
             </View>
 
-            {/* TextInput with search icon */}
             <View style={styles.searchContainer}>
                 <Ionicons name="search" size={20} color="#FF90BC" style={styles.searchIcon} />
                 <TextInput
@@ -26,7 +24,6 @@ const Home = () => {
                 />
             </View>
 
-            {/* Image and Text components in a row */}
             <View style={styles.imagesRowContainer}>
                 <View style={styles.imageTextContainer}>
                     <View style={styles.imageContainer}>
